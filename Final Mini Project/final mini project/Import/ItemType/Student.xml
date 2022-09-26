@@ -1,0 +1,288 @@
+﻿<AML>
+ <Item type="ItemType" id="AE79469D93714EFFAD5E5EA6B61F9CC4" action="add">
+  <allow_private_permission>1</allow_private_permission>
+  <auto_search>0</auto_search>
+  <enforce_discovery>1</enforce_discovery>
+  <hide_where_used>0</hide_where_used>
+  <history_template keyed_name="Default" type="History Template">3BC16EF9E52B4F9792AB76BCE0492F29</history_template>
+  <implementation_type>table</implementation_type>
+  <instance_data>STUDENT</instance_data>
+  <is_dependent>0</is_dependent>
+  <is_relationship>0</is_relationship>
+  <is_versionable>0</is_versionable>
+  <label xml:lang="en">Student</label>
+  <label_plural xml:lang="en">Students</label_plural>
+  <large_icon>../Images/ClaimedByMe.svg</large_icon>
+  <open_icon>../Images/ClaimedByMe.svg</open_icon>
+  <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+  <show_parameters_tab>1</show_parameters_tab>
+  <structure_view>tabs on</structure_view>
+  <unlock_on_logout>0</unlock_on_logout>
+  <use_src_access>0</use_src_access>
+  <name>Student</name>
+  <Relationships>
+   <Item type="ITPresentationConfiguration" id="6F69255B8979E4396B77D6069BFA2DFF" action="add">
+    <client>js</client>
+    <related_id keyed_name="Student_TOC_Configuration" type="PresentationConfiguration">6F69255B8979E43936326AA7318BB90D</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">AE79469D93714EFFAD5E5EA6B61F9CC4</source_id>
+   </Item>
+   <Item type="Property" id="2196D42AF3684EF0B8A91C7D5FCF92F4" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>text</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Address</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3584</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">AE79469D93714EFFAD5E5EA6B61F9CC4</source_id>
+    <track_history>0</track_history>
+    <name>stud_address</name>
+   </Item>
+   <Item type="Property" id="118B727A14EA4EA6924902785E9632B4" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>ml_string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Email Address</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3456</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">AE79469D93714EFFAD5E5EA6B61F9CC4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>stud_email</name>
+   </Item>
+   <Item type="Property" id="7B8C860B43164D118C3496D1FAA40D56" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>text</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Grade</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3968</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">AE79469D93714EFFAD5E5EA6B61F9CC4</source_id>
+    <track_history>0</track_history>
+    <name>stud_grade</name>
+   </Item>
+   <Item type="Property" id="F716EA09B64C45A99C7208B2E438A49E" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Mobile Number</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3328</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">AE79469D93714EFFAD5E5EA6B61F9CC4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>stud_mobileno</name>
+   </Item>
+   <Item type="Property" id="C57C004C86D547F49DD3185DCC08E923" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Student Name</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3072</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">AE79469D93714EFFAD5E5EA6B61F9CC4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>stud_name</name>
+   </Item>
+   <Item type="Property" id="D67799D7628A4A8F94F9B174FF96F0E3" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>1</is_required>
+    <label xml:lang="en">Parent</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3200</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">AE79469D93714EFFAD5E5EA6B61F9CC4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>stud_parent</name>
+   </Item>
+   <Item type="Property" id="625304225EF94F36ADF1D489DE165C1F" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>decimal</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Percentage</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3840</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">AE79469D93714EFFAD5E5EA6B61F9CC4</source_id>
+    <track_history>0</track_history>
+    <name>stud_percentage</name>
+   </Item>
+   <Item type="Property" id="89E900A255DA4F31BB8D4BDBF07CDD7B" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>integer</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Roll Number</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3712</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">AE79469D93714EFFAD5E5EA6B61F9CC4</source_id>
+    <track_history>0</track_history>
+    <name>stud_rollno</name>
+   </Item>
+   <Item type="View" id="36F4FA650E1849DABDC612191879CC24" action="add">
+    <client>js</client>
+    <related_id keyed_name="Student" type="Form">8138EB35C93A4CB48B8030AE1A91E3FB</related_id>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <show_ssvc>0</show_ssvc>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">AE79469D93714EFFAD5E5EA6B61F9CC4</source_id>
+    <type>default</type>
+   </Item>
+   <Item type="Server Event" id="19E2FB15C6AE47C784BB00DF30ECC034" action="add">
+    <event_version>version_1</event_version>
+    <is_required>0</is_required>
+    <related_id keyed_name="Student_email" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>Student_email</name>
+     </Item>
+    </related_id>
+    <server_event>onAfterAdd</server_event>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">AE79469D93714EFFAD5E5EA6B61F9CC4</source_id>
+   </Item>
+   <Item type="Server Event" id="8845CEACDE5A410DAE2D6DE5CF6D3714" action="add">
+    <event_version>version_1</event_version>
+    <is_required>0</is_required>
+    <related_id keyed_name="student_phone" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>student_phone</name>
+     </Item>
+    </related_id>
+    <server_event>onAfterAdd</server_event>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">AE79469D93714EFFAD5E5EA6B61F9CC4</source_id>
+   </Item>
+   <Item type="Item Action" id="6F65F4C7FC534B04BB80C72595D7A7D2" action="add">
+    <related_id keyed_name="CalculatePercent" type="Action">F0044E2D02254BE3872E0D239FD939B0</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">AE79469D93714EFFAD5E5EA6B61F9CC4</source_id>
+   </Item>
+   <Item type="ItemType Life Cycle" id="399912A2124B44B6AAA0FE65E2BB37A2" action="add">
+    <related_id keyed_name="Student" type="Life Cycle Map">CD47A2D97C3C4F72983ABF2A358D4072</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">AE79469D93714EFFAD5E5EA6B61F9CC4</source_id>
+   </Item>
+   <Item type="Allowed Workflow" id="A381D6A072FA4D04BB3AD35BBE60858C" action="add">
+    <is_default>1</is_default>
+    <related_id keyed_name="Student" type="Workflow Map">28A057DBBC524A028042683C7C15D9DE</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">AE79469D93714EFFAD5E5EA6B61F9CC4</source_id>
+   </Item>
+   <Item type="TOC Access" id="1268D365600B4CF890D64600932136EB" action="add">
+    <related_id keyed_name="Office Staff" type="Identity">EFDC19212C964FE4B550565ED99CF974</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">AE79469D93714EFFAD5E5EA6B61F9CC4</source_id>
+   </Item>
+   <Item type="TOC Access" id="13A2747FC57A43F688C6B739A01C427F" action="add">
+    <related_id keyed_name="Principal" type="Identity">A5466915F1DC47819344C3C758EBC8EF</related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">AE79469D93714EFFAD5E5EA6B61F9CC4</source_id>
+   </Item>
+   <Item type="TOC View" id="A69692FF68BC4FDDA396568010958D9B" action="add">
+    <related_id keyed_name="Principal" type="Identity">A5466915F1DC47819344C3C758EBC8EF</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">AE79469D93714EFFAD5E5EA6B61F9CC4</source_id>
+   </Item>
+   <Item type="TOC View" id="6C2961A18F6141989336DA3F5CE808AB" action="add">
+    <related_id keyed_name="Office Staff" type="Identity">EFDC19212C964FE4B550565ED99CF974</related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">AE79469D93714EFFAD5E5EA6B61F9CC4</source_id>
+   </Item>
+   <Item type="Client Event" id="550225C35C974A58A2B1F0008CEA579B" action="add">
+    <related_id keyed_name="Percentage_Calculator" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>Percentage_Calculator</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">AE79469D93714EFFAD5E5EA6B61F9CC4</source_id>
+   </Item>
+   <Item type="Can Add" id="EAA29A7D94064712A0BEE6D352757D4E" action="add">
+    <can_add>1</can_add>
+    <related_id keyed_name="Principal" type="Identity">A5466915F1DC47819344C3C758EBC8EF</related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">AE79469D93714EFFAD5E5EA6B61F9CC4</source_id>
+   </Item>
+   <Item type="Can Add" id="1FF2898E5CDE4F3387609976DE152932" action="add">
+    <can_add>0</can_add>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">AE79469D93714EFFAD5E5EA6B61F9CC4</source_id>
+   </Item>
+   <Item type="Can Add" id="7CFC70FAC7A849B68578F90EB3E4CFF0" action="add">
+    <can_add>1</can_add>
+    <related_id keyed_name="Office Staff" type="Identity">EFDC19212C964FE4B550565ED99CF974</related_id>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">AE79469D93714EFFAD5E5EA6B61F9CC4</source_id>
+   </Item>
+   <Item type="Allowed Permission" id="402B24779538411C8C15598151D9F7FC" action="add">
+    <is_default>1</is_default>
+    <related_id keyed_name="Student" type="Permission">9B5A5D29BFE7468F9FF496C5B1023179</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">AE79469D93714EFFAD5E5EA6B61F9CC4</source_id>
+   </Item>
+   <Item type="Allowed Permission" id="3C918E87794A4289BBD76041674D7F5E" action="add">
+    <is_default>0</is_default>
+    <related_id keyed_name="Default Access" type="Permission">9122CD065CF04141B8EFE263FC80BEA4</related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">AE79469D93714EFFAD5E5EA6B61F9CC4</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>
